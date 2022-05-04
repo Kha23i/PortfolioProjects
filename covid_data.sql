@@ -4,9 +4,6 @@ where continent is not null
 order by 3,4
 
 
---select *
---from Portfolio.dbo.covidvaccinations
---order by 3,4
 
 select location, date, total_cases, new_cases, total_deaths, population
 from Portfolio..coviddeaths
